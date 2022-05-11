@@ -2,8 +2,11 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Tanwa Sripan",
 	"description": "A project to learn nodejs",
+	"keywords": [ "tutorial", "nodejs", "freecodecamp" ],
+	"version": "1.0.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment":"^2.10.2"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -12,5 +15,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
-	}
+	},
+	"license": "MIT"
 }
